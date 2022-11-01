@@ -1,0 +1,71 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <form class="form" action="">
+                    <input
+                        id="search-field"
+                        type="text"
+                        placeholder="Enter name or surname"
+                    />
+                    <button class="search-btn" type="submit">Search...</button>
+                </form>
+            </header>
+            <main class="main">
+                <div id="content">
+                    <ul id="ul" class="result-list">
+                        <!-- <div>
+                            <p>
+                                try to search for exact names, note the
+                                capitalization
+                            </p>
+                            <p>or get all results with *</p>
+                        </div> -->
+
+                        <li id="default-item" class="result-list-item">
+                            <dl class="item-first item-keyValue">
+                                <dt>Name</dt>
+                                <dd class="name">Jolie</dd>
+                                <dt>Phone</dt>
+                                <dd class="phone">076 333 45 56</dd>
+                                <dt>Country</dt>
+                                <dd class="country">Italy</dd>
+                            </dl>
+                            <dl class="item-second item-keyValue">
+                                <dt>Surname</dt>
+                                <dd class="surname">Foreman</dd>
+                                <dt>Email</dt>
+                                <dd class="email">lorem.ipsum@dolor.com</dd>
+                            </dl>
+                            <dl class="item-third item-keyValue">
+                                <dt>Description</dt>
+                                <dd class="description">
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Odio saepe reprehenderit
+                                    at eveniet numquam placeat consectetur
+                                    atque! Dolores corporis excepturi eum aut
+                                    quis ut temporibus nesciunt odit, illo ab
+                                    necessitatibus!
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </main>
+            <footer class="footer">
+                <p>Almir Ajradini</p>
+                <p>Informatiker Modul294</p>
+                <p>2022 BBBaden</p>
+            </footer>
+        </div>
+
+        <script type="module" src="./app.js"></script>
+    </body>
+</html>
